@@ -1,0 +1,19 @@
+# ensure LF in repo, convert on checkout
+* text=auto
+
+# enforce LF for code/text
+*.dart text eol=lf
+*.md   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
+
+# binary files (don’t try to normalize)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+
+# If you use Git LFS to track large media, LFS will update this file automatically.
